@@ -170,13 +170,14 @@ header{
     color: #667085;
     text-align: center;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 100%;
     width: 90%;
 }
 
 
 .dark{
+    /* padding: 5px 5px; */
     width: 2em;
     height: 2em;
 }

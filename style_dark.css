@@ -27,13 +27,6 @@ a{
     display: inline-block;
 }
 
-#spo{
-    padding: 5px 1em;
-    border-radius: 50px;
-    background-color: var(--dark_mode);
-    fill: var(--dark_mode);
-}
-
 html{
     overflow: scroll;
 }
@@ -163,6 +156,7 @@ header{
 }
 
 .txt_company{
+
     min-width: 100%;
     display: flex;
     flex-direction: column;
@@ -182,10 +176,11 @@ header{
 }
 
 .txt_algumas{
-    color: #667085;
+    font-weight: 500;
+    color:#e1e8f2;
     text-align: center;
     font-style: normal;
-    font-weight: 300;
+    /* font-weight: 300; */
     line-height: 100%;
     width: 90%;
 }

@@ -1,0 +1,233 @@
+@media screen and (min-width: 50px){
+    .nav{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 744px){
+
+    #side_bar{
+        display: none;
+    }
+
+    .nav{
+        display: flex;
+        gap: 2em;
+    }
+
+    .nav a{
+        font-size: 18px;
+        width: fit-content;
+        color: #272D38;
+    }
+
+    .main_produtos{
+        padding: 0 1em;
+    }
+
+    .produtos{
+        justify-content: left;
+        text-align: left;
+    }
+
+    .produtos p{
+        width: 60%;
+        text-align: left;
+        margin-right: auto;
+    }
+
+    .produtos h1{
+        margin-bottom: 50px;
+        width: fit-content;
+        font-size: 58px;
+    }
+
+    .produtos button{
+        margin-right: auto;
+        width: fit-content;
+    }
+
+    .img1{
+        width: 450px;
+        height: 450px;
+    }
+
+    .txt_company{
+        padding: 0 1em;
+    }
+
+    .company svg{
+        width: 105px;
+        height: 36px;
+    }
+
+    .branding{
+        /* border: 2px solid black; */
+        align-items: center;
+        justify-content: center;
+        flex-direction:row-reverse;
+        margin-bottom: 6.25em;
+    }
+
+    .analise{
+        /* border: 2px solid black; */
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 15px;
+        flex-direction:row;
+        margin-bottom: 6.25em;
+    }
+
+    .txt_analise{
+        margin-left: 80px;
+    }
+
+    .txt_brand , .txt_analise{
+        text-align: left;
+    }
+
+    .txt_brand h1, .txt_analise h1{
+        text-align: left;
+        font-size: 46px;
+    }
+
+    .txt_brand p , .txt_analise p{
+        text-align: left;
+    }
+
+    .img_brand , .img_an{
+        width: 100%;
+        
+    }
+
+    .img2 , .img3{
+        width: 425.753px;
+        height: 425.753px;
+        flex-shrink: 0; 
+        margin: auto;
+        /* border: 2px solid black; */
+    }
+
+    .txt_testi p{
+        display: none;
+    }
+
+    .txt_testi h1{
+        font-size: 46px;
+    }
+
+    .cards_clients{
+        padding: 2.5em;
+        flex-direction: row;
+    }
+
+    .txt_cards{
+        gap: 2em;
+        text-align: left;
+    }
+
+    .txt_cards p{
+        text-align: left;
+    }
+
+    .txt_faca{
+        padding: 1em;
+        gap: 2.5em;
+    }
+
+    .txt_faca button{
+        width: fit-content;
+    }
+
+    .txt_faca h1{
+        text-align: left;
+        font-size: 48px;
+    }
+
+    .txt_faca p{
+        text-align: left;
+    }
+
+    .img4{
+        width: 547.754px;
+        height: 547.754px;
+        display: unset;
+    }
+
+    .f_project{
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1316px){
+
+    .all{
+        padding: 0 5em;
+    }
+
+    .produtos{
+        flex-direction: row;
+    }
+    .txt_produtos{
+        gap: 3em;
+    }
+
+    #contact{
+        padding: 1em 3em;
+    }
+
+    .company{
+        width: 70%;
+        
+    }
+
+    .txt_brand p, .txt_analise p{
+        font-size: 16px;
+    }
+
+    .txt_brand, .txt_analise{
+        width: 40%;
+        
+    }
+
+    .img_brand, .img_an{
+        width: 30%;
+        /* border: 2px solid black; */
+    }
+
+    .branding, .analise{
+        justify-content: space-between;
+        /* border: 2px solid black; */
+    }
+
+    .cards{
+        flex-direction: row;
+    }
+
+    .cards_clients{
+        min-height: 450px;
+        flex-direction: column;
+        width: calc(33.33% - 2em);
+    }
+
+    .txt_cards{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .txt_cards p{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .faca{
+        padding: 0 1em;
+        flex-direction: row-reverse;
+    }
+
+    .txt_faca{
+        gap: 3.5em;
+        justify-content: center;
+    }
+
+}

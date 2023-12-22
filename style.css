@@ -175,6 +175,13 @@ button:hover ,#enter:hover{
     width: 90%;
 }
 
+
+.dark{
+    width: 2em;
+    height: 2em;
+}
+
+
 .branding{
     /* border: var(--border); */
     display: flex;

@@ -127,6 +127,13 @@ header{
 
 }
 
+
+
+.dark{
+    width: 2em;
+    height: 2em;
+}
+
 button{
     cursor: pointer;
     text-transform: uppercase;

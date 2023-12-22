@@ -6,6 +6,11 @@
 
 @media screen and (min-width: 744px){
 
+    .btn_mode{
+        display: none;
+    }
+
+
     #side_bar{
         display: none;
     }
@@ -174,6 +179,9 @@
 
 @media screen and (min-width: 1316px){
 
+    .btn_mode{
+        display: none;
+    }
 
     .all{
         padding: 0 5em;

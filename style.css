@@ -119,7 +119,7 @@ header{
 
 }
 
-button{
+#enter, #contact{
     cursor: pointer;
     text-transform: uppercase;
     color: #FFF;
@@ -136,7 +136,7 @@ button{
     transition: background-color 0.5s ease-in-out;
 }
 
-button:hover ,#enter:hover{
+#contact:hover ,#enter:hover{
     background-color: #5986c2;    
 
 }

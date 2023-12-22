@@ -53,7 +53,7 @@
         font-size: 58px;
     }
 
-    .produtos button{
+    #enter{
         margin-right: auto;
         width: fit-content;
     }
@@ -148,7 +148,7 @@
         gap: 2.5em;
     }
 
-    .txt_faca button{
+    #contact{
         width: fit-content;
     }
 

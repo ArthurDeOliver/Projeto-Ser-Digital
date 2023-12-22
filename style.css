@@ -218,12 +218,12 @@ button:hover ,#enter:hover{
 }
 
 .analise{
-    border: var(--border);
+    /* border: var(--border); */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 90%;
+    width: 95%;
     gap: 2em;
 }
 

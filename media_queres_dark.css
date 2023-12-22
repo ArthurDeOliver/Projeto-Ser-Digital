@@ -10,6 +10,11 @@
         display: none;
     }
 
+    #enter, #contact{
+        background-color: rgb(0, 110, 255);
+    }
+
+
     .dark{
         width: 2em;
         height: 2em;
@@ -22,10 +27,11 @@
         gap: 2em;
     }
 
+
     .naveg{
         font-size: 18px;
         width: fit-content;
-        color: #272D38;
+        color: #e1e8f2;
     }
 
     .main_produtos{
@@ -80,14 +86,12 @@
         /* border: 2px solid black; */
         align-items: center;
         justify-content: space-evenly;
-        /* padding: 0 15px; */
+        padding: 0 15px;
         flex-direction:row;
         margin-bottom: 6.25em;
     }
 
     .txt_analise{
-        /* border: 2px solid black; */
-
         margin-left: 80px;
     }
 
@@ -169,6 +173,7 @@
 }
 
 @media screen and (min-width: 1316px){
+
 
     .all{
         padding: 0 5em;

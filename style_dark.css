@@ -1,4 +1,5 @@
 :root{
+    --dark_mode: #e1e8f2;
     --border: 2px solid black;
 }
 
@@ -26,6 +27,13 @@ a{
     display: inline-block;
 }
 
+#spo{
+    padding: 5px 1em;
+    border-radius: 50px;
+    background-color: var(--dark_mode);
+    fill: var(--dark_mode);
+}
+
 html{
     overflow: scroll;
 }
@@ -33,8 +41,8 @@ html{
 body{
     overflow:hidden;
     /* border: var(--border); */
-    background-color: #FDFCFC;
-    color: #272D38;
+    background-color: #141414;
+    color:#e1e8f2;
     position: relative;
     min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
@@ -105,13 +113,13 @@ header{
 .produtos h1{
     /* padding: 0 20px; */
     /* border: var(--border); */
-    color: #272D38;
+    color: #e1e8f2;
     font-size: 40px;
     text-transform: capitalize;
 }
 
 .produtos p{
-    color: #272D38;
+    color: #e1e8f2;
     text-align: center;
     font-size: 1em;
     font-weight: 400;
@@ -162,7 +170,7 @@ button:hover ,#enter:hover{
     padding: 2em 1em;
     width: 100%;
     border-radius: 8px;
-    background: #ececec;
+    background: #202020;
     margin-bottom: 88px;
 }
 
@@ -201,8 +209,9 @@ button:hover ,#enter:hover{
     text-align: center;
     /* border: var(--border); */
     width: 100%;
+    
     flex-shrink: 0;
-    color: #272D38;
+    color: #e1e8f2;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -218,12 +227,13 @@ button:hover ,#enter:hover{
 }
 
 .analise{
+
     /* border: var(--border); */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100%;
+    /* width: 95%; */
     gap: 2em;
 }
 
@@ -237,7 +247,7 @@ button:hover ,#enter:hover{
 .analise p{
     width: 100%;
     /* padding: 0 0.1em; */
-    color: #272D38;
+    color: #e1e8f2;
     text-align: center;
     font-size: 14px;
     font-style: normal;
@@ -260,6 +270,7 @@ button:hover ,#enter:hover{
 }
 
 .testi{
+    z-index: 2;
     /* border: var(--border); */
     display: flex;
     flex-direction: column;
@@ -284,8 +295,9 @@ button:hover ,#enter:hover{
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
 
+
 .cards{
-    z-index: 2;
+    color: #141414;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -293,6 +305,7 @@ button:hover ,#enter:hover{
 }
 
 .cards_clients{
+    color: var(--dark_mode);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -300,11 +313,12 @@ button:hover ,#enter:hover{
     gap: 2em;
     padding: 2em 2.5em;
     border-radius: 20px;
-    background: #f5f5f5;
+    background: #202020;
     margin-bottom: 50px;
 }
 
 .txt_cards{
+    color: var(--dark_mode);
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -312,9 +326,10 @@ button:hover ,#enter:hover{
 
 
 .cards_clients p{
+    color: var(--dark_mode);
     line-height: 130%;
     /* border: var(--border); */
-    color: #272D38;
+    /* color: #e1e8f2; */
     text-align: center;
     font-size: 14px;
     font-style: normal;
@@ -325,11 +340,12 @@ button:hover ,#enter:hover{
 }
 
 .faca{
+    color: var(--dark_mode);
     width: 100%;
     border-radius: 20px;
     padding: 3em 2.18em;
     padding-bottom: 0;
-    background: #ececec;
+    background: #202020;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -344,6 +360,7 @@ button:hover ,#enter:hover{
 }
 
 .txt_faca{
+    color: var(--dark_mode);
     justify-content: space-evenly;
     /* border: var(--border); */
     display: flex;
@@ -352,7 +369,8 @@ button:hover ,#enter:hover{
 }
 
 .faca p{
-    color: #272D38;
+    color: var(--dark_mode);
+    /* color: #e1e8f2; */
     text-align: center;
     /* font-family: Inter; */
     font-size: 16px;
@@ -374,7 +392,7 @@ button:hover ,#enter:hover{
     gap: 2em;
     /* align-items: center; */
     padding: 3.12em 3.43em;
-    background: #ececec;
+    background: #4e4e4e;
     text-align: center;
 }
 
@@ -419,7 +437,7 @@ footer a{
 
 footer a:hover{
     border-radius: 0.2em;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     color: black;
 }
 

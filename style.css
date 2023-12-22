@@ -133,6 +133,12 @@ button{
     border-radius: 8px;
     background: #8EADD5;    
     margin-bottom: 50px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+button:hover ,#enter:hover{
+    background-color: #5986c2;    
+
 }
 
 .img1{

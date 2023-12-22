@@ -120,6 +120,7 @@ header{
 }
 
 button{
+    cursor: pointer;
     text-transform: uppercase;
     color: #FFF;
     text-align: center;

@@ -14,6 +14,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
 
+    <script>
+        document.getElementById('dark').addEventListener('click', function() {
+          window.location.href = 'darkmode.html'; 
+        });
+      </script>
+
 </head>
 <body>
     
@@ -44,7 +50,7 @@
                 </ul>
             
                 <div class="btn_mode">
-                    <a href="darkmode.html" class="dark"><img src="imagens/lua-crescente.png"></a>
+                    <a href="darkmode.html" id="dark"><img src="imagens/lua-crescente.png"></a>
                 </div>
 
             </div>

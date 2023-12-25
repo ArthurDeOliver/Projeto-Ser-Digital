@@ -227,7 +227,7 @@
     }
 
     .cards_clients{
-        min-height: 450px;
+        height: 451px;
         flex-direction: column;
         width: calc(33.33% - 2em);
     }
